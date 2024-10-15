@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <button class="options" style="border: 0;background-color:#c8c8c8;" onclick="window.location.href='/home/';">Home</button>
+                <button class="options" style="border: 0;" onclick="window.location.href='/profile/';">Profile</button>
+                <button class="options" style="border: 0;" onclick="window.location.href='/addresource/';">Add Resource</button>
+                <button class="options" style="border: 0;" onclick="window.location.href='/approve_resourse/';">Approve Resource</button>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="header">
+                <div class="nav">Dashboard</div>
+                <div class="buttons">
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search courses..." class="search-input">
+            </div>
+            <div class="box">
+                <div class="course">Data Structures and Algorithms</div>
+                <div class="course">Engineering Mechanics</div>
+                <div class="course">Information Technology Workshop 2</div>
+                <div class="course">Computer Programming</div>
+                <div class="course">Engineering Mathematics</div>
+                <div class="course">Data Structures and Algorithms</div>
+                <div class="course">Engineering Mechanics</div>
+                <div class="course">Information Technology Workshop 2</div>
+                <div class="course">Computer Programming</div>
+                <div class="course">Engineering Mathematics</div>
+                <div class="course">Data Structures and Algorithms</div>
+                <div class="course">Engineering Mechanics</div>
+                <div class="course">Information Technology Workshop 2</div>
+                <div class="course">Computer Programming</div>
+                <div class="course">Engineering Mathematics</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
